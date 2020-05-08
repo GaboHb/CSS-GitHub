@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+    <title>Formulario de contacto</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Este un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="icon" href="icono_Nube.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="misestilos.css"
+</head>
+
+<body>
+    <header>
+        <h1>Formulario de contacto</h1>
+        <time datetime="2020-03-29" pubdate>Publicado 29-03-2020</time>
+    </header>
+    <nav>
+        <a href="index.html">Principal</a>
+        <a href="fotos.html">Fotos</a>
+        <a href="videos.html">Videos</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <main>
+        <section id="noticias">
+            <article>
+                Este es el texto de mi primer articulo
+            </article>
+            <article>
+                Exte es el texto de mi segundo articulo
+            </article>
+        </section>
+        <section>
+            <div class="libros">Libro: IT, Stephen King</div>
+            <div class="libros">Libro: Carrie, Stephen King</div>
+            <div class="libros">Libro: El resplandor, Stephen King</div>
+            <div class="libros">Libro: Misery, Stephen King</div>
+        </section>
+        <section>
+            <form name="formulario" method="get" action="procesar.php">
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" name="nombre" id="nombre" maxlength="15">
+                </p>
+                <p><label><input type="checkbox" name="edad15" value="15" checked>15 Años</label> </p>
+                <p><label><input type="checkbox" name="edad30" value="30" checked>30 Años</label></p>
+                <p><label><input type="checkbox" name="edad45" value="45">45 Años</label></p>
+                <p><label><input type="checkbox" name="edad60" value="60">60 Años</label></p>
+
+                <p><label>Fecha:<input type="date" name="fecha" value="2020-02-05"></label></p>
+                <p><label>Color:<input type="color" name="micolor" value="#99BB00"></label></p>
+                <p><label>Correo:<input type="email" name="correo" placeholder="correo@sitio.com"</label></p>
+                <p><label>Teléfono:<input type="tel" name="telefono"></label></p>
+                <p><label>Código Postal:<input pattern="[0-9]{5}" name="cp" title="Inserte el código postal de 5 digitos"></label></p>
+                <p><label>Sitio web: <input type="url" name="sitioweb"></label></p>
+                
+                <p><label>Texto:<textarea name="texto" cols="50" rows="6"></textarea></label></p>
+
+                <p>
+                    <label for="listado">libros:</label>
+                    <select name="libro" id="listado">
+                        <option value="1">IT</option>
+                        <option value="2">Carrie</option>
+                        <option value="3">El Resplandor</option>
+                        <option value="4">Misery</option>
+                    </select>
+                </p>
+
+                <p>
+                    <datalist id="datos">
+                        <option value="123123123" label="Telefono 1"></option>
+                        <option value="456456456" label="Telefono 2"></option>
+                    </datalist>
+                <p>
+                <p><label>Telefono:<input type="tel" name="telefono" list="datos"></label></p>
+                
+                <p><progress value="30" max="100">0%</progress></p>
+
+                <p><meter value="60" min="0" max="100" low="40" high="80" optimum="100">60</meter></p>
+
+                <p><input type="submit" value="Enviar datos"></p>
+                <p><input type="image" src="boton.png" width="70"></p>
+            </form>
+        </section>
+        <aside>
+            <p>Cita del artículo uno</p>
+            <p>Cita del artículo dos</p>
+        </aside>
+    </main>
+    <footer>
+        <address>Oaxaca de Juarez</address>
+        <small>&copy; Derechos Reservados 2020</small>
+    </footer>
+</body>
+</html>
