@@ -10,17 +10,25 @@
 #caja-1 {
     /*flex: 2;*/
     /*width: 300px;*/
-    flex: 1 1 200px;
+    /*flex: 1 1 200px;*/
+    width: 200px;
+    flex: 1 1 auto;
 }
 #caja-2 {
     /*flex: 1;*/
-    flex: 1 5 100px;
+    /*flex: 1 5 100px;*/
+    width: 100px;
+    flex: 1 1 auto;
 }
 #caja-3 {
     /*flex: 1;*/
-    flex: 1 5 100px;
+    /*flex: 1 5 100px;*/
+    width: 100px;
+    flex: 1 1 auto;
 }
 #caja-4 {
     /*flex: 1;*/
-    flex: 1 5 100px;
+    /*flex: 1 5 100px;*/
+    width: 100px;
+    flex: 1 1 auto;
 }
