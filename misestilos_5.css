@@ -1,31 +1,26 @@
 #cajapadre {
     display: flex;
-    /*flex-direction:row-reverse;*/
     width: 600px;
+    height: 200px;
     border: 1px solid;
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+    align-items: stretch;
 }
 #cajapadre > div {
-    height: 145px;
+    /*height: 145px;*/
     margin: 5px;
     background-color: #cccccc;
 }
 #caja-1 {
-    /*flex: 1;
-    order: 2px;*/
-    width: 100px;
+    flex: 1;
 }
 #caja-2 {
-   /* flex: 1;
-    order: 4;*/
-    width: 100px;
+    flex: 1;
 }
 #caja-3 {
-    /*flex: 1;
-    order: 3;*/
-    width: 100px;
+    flex: 1;
 }
 #caja-4 {
-   /*flex: 1;
-   order: 1;*/
-   width: 100px;
+   flex: 1;
 }
