@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Ejemplo de modelo de caja flexible</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Este es un documento HTML5">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="misestilos_6.css">
+</head>
+<body>
+    <header id="cabeceralogo">
+        <div>
+            <h1>Ejemplo caja flexible</h1>
+        </div>
+    </header>
+    <nav id="menuprincipal">
+        <div>
+            <ul>
+                <li><a href="modelo_flexible.html">Principal</a></li>
+                <li><a href="fotos.html>">Fotos</a></li>
+                <li><a href="videos.html">Videos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div>
+            <section id="articulosprincipales">
+                <article>
+                    <h1>Titulo Primer Articulo</h1>
+                    <time datetime="2016-12-23" pubdate>
+                        <div class="numerodia">23</div>
+                        <div class="nombredia">Viernes</div>
+                    </time>
+                    <figure>
+                        <img src="Santo-Domingo.jpg">
+                    </figure>
+                    <p>Debería ver la misma página
+                        creada anteriormente con el modelo de caja tradicional, con la excepción de
+                        que esta vez las secciones de la página son flexibles (sus tamaños cambian a
+                        medida que el tamaño de la ventana se incrementa o reduce) y la columna
+                        generada por el elemento "aside" se extiende hasta el extremo inferior del
+                        área principal.</p>
+                </article>
+                <article>
+                    <h1>Titulo Segundo Articulo</h1>
+                    <time datetime="2016-12-7" pubdate>
+                        <div class="numerodia">7</div>
+                        <div class="nombredia">Miercoles</div>
+                    </time>
+                    <figure>
+                        <img src="calenda.jpg">
+                    </figure>
+                    <p>Este es el texto de mi segundo articulo</p>
+                </article>
+            </section>
+            <aside id="infoadicional">
+                <h1>Informacion personal</h1>
+                <p>Cita del articulo uno</p>
+                <p>Cita del articulo dos</p>
+            </aside>
+        </div>
+    </main>
+    <footer id="pielogo">
+        <div>
+            <section class="seccionpie">
+                <h1>Sitio Web</h1>
+                <p><a href="modelo_flexible.html">Principal</a></p>
+                <p><a href="fotos.html">Fotos</a></p>
+                <p><a href="videos.html">Videos</a></p>
+            </section>
+
+            <section class="seccionpie">
+                <h1>Ayuda</h1>
+                <p><a href="contancto.html">Contacto</a></p>
+            </section>
+
+            <section class="seccionpie">
+                <address>Toronto, Canada</address>
+                <small>&copy; Derechos Reservados 2020</small>
+            </section>
+        </div>
+    </footer>
+</body>
+</html>
