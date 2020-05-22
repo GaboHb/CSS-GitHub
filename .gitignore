@@ -1,0 +1,2 @@
+# Las buenas prácticas requieren siempre de un archivo .gitignore como este.
+*.DS_Store
