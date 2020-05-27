@@ -17,7 +17,9 @@ También, una buena práctica es añadir un archivo README.md como este en el di
 
 ### Configuración inicial
 
-Gabriel, por favor indica aquí que tutoriales estás siguiendo, gracias.
+Los tutoriales que se están consultado para aprender HTML5 y CSS3 son:
+* El gran libro de HTML5, CSS3 y JavaScript, 3a Edición, J.D. Gauchat.
+* Udemy.com --- Desarrollo Web Completo con HTML5, CSS3, JS AJAX PHP y MySQL --- Instructor, Juan Pablo de la Torre
 
 ## Desarrollo
 
@@ -52,7 +54,52 @@ En esto consiste precisamente el `Scaffolding.`
 
 >Pensé que ya habías asimilado la buena práctica de nunca trabajar sobre la rama máster, con tristeza veo que no.
 
-Cuando aprendas algo, utilízalo constantemente si no, lo vas a olvidar. Por ello, de tarea añade aquí el porqué no trabajar nunca sobre la rama máster.
+## Por que nunca trabajar sobre la rama master:
+
+La rama master nos permite siempre tener un espacio donde se encuentra el código del proyecto que ha sido aprobado y completamente limpio.
+
+La ramificación en proyectos de git nos permite crear tantas ramas como sean necesarias para cada incidencia o funcionalidad del proyecto, las ramas entre otras características nos permite las multitareas y el trabajo en equipo.
+
+# Workflow
+
+El flujo de trabajo a emplear en este repositorio es [WunderFlow](https://wunderflow.wunder.io/).
+
+## Branches
+
+Siguiendo el flujo de trabajo WunderFlow contaremos con 3 ramas principales:
+
+- **develop**: Rama de desarrollo.
+- **staging**: Rama de testing.
+- **master**: Rama de produccion.
+
+Las ramas secundarias se nombrarán así:
+
+- **feature/[ticket number]--[short description]**: Todas las ramas de desarrollo relacionadas a una tarea, comenzarán con la palabra feature seguido del número de ticket y una descripcion corta. Con ello se obtendrá un mejor control y seguimiento de la tarea.
+
+- **hotfix/[ticket number]--[short description]**: un hotfix es una tarea que, como su nombre lo indica, es un arreglo rápido que quedara fuera de los realeases normales y solo debe ser usado en casos especiales.
+
+### Branching
+
+Siguiendo el flujo de WunderFlow, todas las ramas deberán iniciar de **master** como base, nunca de ninguna de las otras ramas principales. Si se da el caso que apenas inicia el proyecto, la rama **master** solamente contendrá el commit inicial, por lo qué, en esta única ocasión, las ramas iniciarán a partir de **develop**
+
+### Merge Strategy
+
+La estrategia de merge es individual para cada rama feature haciendo un merge por cada rama principal.
+
+### Conflicts Resolution
+
+Para resolver los conflictos que puedan existir entre ramas, al momento de hacer un merge deberán de ser resueltos por el encargado de hacer los merges ó, en su defecto, si se les indica, creando una rama pr/[branch to merge]/[ticket number].
+
+**Ejemplo:**
+
+Existe un conflicto a la hora de hacer un merge de un feature a develop
+
+    git checkout develop
+    git checkout -b pr/develop/NS-01
+    git merge feature/NS-01-initial-commit
+
+Posteriormente a esto, se resuelven los conflictos, se prueba el código y se genera un pull request de pr/develop/NS-01 a develop de esta forma se arreglan los conflictos sin ensuciar la rama `develop` principal.
+
 
 >Ya te lo había puesto en algún otro archivo README, cópialo aquí para que nunca lo olvides e investiga los tipos de estrategias de ramificación que se pueden emplear con Git y pon en este documento las ligas de lo que investigaste.
 
