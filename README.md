@@ -105,7 +105,13 @@ Posteriormente a esto, se resuelven los conflictos, se prueba el código y se ge
 
 ADICIONALMENTE:
 
-* Investigar que son SASS y LESS e implementa el uso de SASS en todos tus archivos .css
-* Corrige todos tus .html para que carguen los .css generados correctamente.
+## SASS
 
-`¡SUERTE!`
+SASS es un lenguaje de hoja de estilo que se compila en CSS. Le permite usar variables, reglas anidadas, mixins, funciones y más, todo con una sintaxis totalmente compatible con CSS. SASS ayuda a mantener bien organizadas las hojas de estilo grandes y facilita compartir diseños dentro y entre proyectos.
+
+
+## LESS
+
+LESS CSS es un lenguaje de hojas de estilo CSS y funciona como un lenguaje de programación, permitiendo el uso de variables, funciones, operaciones aritmeticas, entre otras, para acelerar y enriquecer los estilos en un sitio web.
+
+LESS CSS no reemplaza a CSS, de hecho el resultado final es una hoja de estilos css completamente funcional y compatible, simplemente ofrece mejoras en el área de desarrollo, por lo que usarlo se vuelve recomendable si quieres ahorrar tiempo de desarrollo, utilizar caracteristicas avanzadas de estilos y para ahorrarte trabajo, de allí su nombre: less css (menos css).
