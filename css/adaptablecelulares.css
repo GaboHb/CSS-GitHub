@@ -1,0 +1,7 @@
+body{
+    background-color: #3333ff;
+}
+
+body section div article img {
+    width: 200px;
+}
