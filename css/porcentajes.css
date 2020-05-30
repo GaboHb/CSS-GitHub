@@ -5,13 +5,16 @@
 
 section {
     float: left;
-    width: 70%;
+    width: 61%;
+    padding: 2%;
+    margin-right: 5%;
     background-color: #999999;
 }
 
 aside {
     float: left;
-    width: 30%;
+    width: 26%;
+    padding: 2%;
     background-color: #cccccc;
 }
 .recuperar {
