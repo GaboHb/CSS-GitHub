@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+section {
+    float: left;
+    width: 70%;
+    background-color: #999999;
+}
+
+aside {
+    float: left;
+    width: 30%;
+    background-color: #cccccc;
+}
+.recuperar {
+    clear:both;
+}
+
+section div article img {
+    width: 50%;
+}
