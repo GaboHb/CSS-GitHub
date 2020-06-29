@@ -205,7 +205,22 @@ h4{
 .entrada-blog .texto-entrada {
     flex-basis: calc(60% - 3rem);
 }
+.texto-entrada a {
+    color: #000000;
+    text-decoration: none;
+}
 .texto-entrada h4 {
     margin: 0;
     line-height: 1.4;
+}
+.texto-entrada h4::after {
+    content: '';
+    display: block;
+    width: 15rem;
+    height: .5rem;
+    background-color: #71b100;
+    margin-top: 1rem;
+}
+.texto-entrada span{
+    color: #E08709;
 }
