@@ -67,6 +67,36 @@ img {
 }
 
 
+/** Botones **/
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 1rem 3rem;
+    margin: 2rem 0;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.btn-primario {
+    background-color: #000000;
+}
+
+.btn-secundario {
+    background-color: #784d3c;
+}
+
+@media (min-width: 768px) {
+    .btn {
+        display: inline-block;
+    }
+}
+
+
 /** Header **/
 
 @media (min-width: 768px) {
