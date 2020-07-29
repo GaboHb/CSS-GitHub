@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de viajes</title>
+    <script src="https://kit.fontawesome.com/dec0a42772.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
@@ -15,12 +16,20 @@
     </header>
 
     <div class="barra">
-        <nav class="navegacion-principal contenedor">
+        <a href="#nav" class="mobile-menu">
+            <i class="fas fa-ellipsis-v"></i>
+        </a>
+
+        <nav id="nav" class="navegacion-principal contenedor">
             <a href="#">Inicio</a>
             <a href="#">Nosotros</a>
             <a href="#">Blog</a>
             <a href="#">Tienda</a>
             <a href="#">Contacto</a>
+
+            <a href="#" class="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
         </nav>
     </div>
 
