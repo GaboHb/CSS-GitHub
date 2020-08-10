@@ -1,0 +1,28 @@
+:root {
+    --fuentePrincipal: 'Staatliches', cursive;
+    --primario: #9c27b0;
+    --primarioOscuro: #89119D;
+    --secundario: #FFCE00;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*.after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: var(--primario);
+    line-height: 2;
+    font-size: 2rem;
+}
+
+.barra {
+    background-color: var(--primarioOscuro);
+    padding: 1rem;
+}
